@@ -1,0 +1,442 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dm-serif display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.jost-<uniquifier> {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+} */
+
+/*es fontrbi sworad rogor gamoviyebo*/
+
+li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 40px;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+ul {
+  justify-items: center;
+  padding: 10px;
+}
+a {
+  color: #292f36;
+  text-decoration: none;
+}
+
+/* End of global styles*/
+
+/* main page */
+.home {
+  color: orangered;
+}
+
+.header h1 {
+  margin-left: 0;
+  width: 50%;
+  display: inline;
+  font-family: DM Serif Display;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  color: #292f36;
+}
+
+.header {
+  width: 1210px;
+  height: 50px;
+  margin: 54px auto;
+}
+
+.left {
+  float: left;
+  width: auto;
+}
+
+.right {
+  float: right;
+  width: auto;
+}
+
+.rectangleimg {
+  background-image: url(../images/Rectangle\ 1.jpg);
+  width: 1210px;
+  height: 758px;
+  border-radius: 60px 0px 100px 0;
+  background-size: cover;
+  position: relative;
+  margin: 50px auto;
+  margin-bottom: 95px;
+  margin-top: 154px;
+}
+
+.promoInfo {
+  text-align: left;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  color: white;
+}
+
+.promoInfo h2 {
+  width: 726px;
+  height: 160px;
+  top: 331px;
+  left: 380px;
+  font-family: DM Serif Display;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 81.25px;
+  margin-bottom: 11px;
+}
+
+.promoInfo p {
+  width: 470px;
+  height: 66px;
+  top: 502px;
+  left: 380px;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  margin-bottom: 28px;
+}
+
+.promoInfo a {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  width: 227px;
+  height: 75px;
+  top: 596px;
+  left: 380px;
+  text-align: center;
+  padding: 25px 22px 25px 28px;
+  border-radius: 20px;
+  background-color: #cda274;
+}
+
+#projectBlock {
+  height: 225px;
+  width: 1158px;
+  margin: 50px auto;
+}
+
+#projectBlock .projectItem {
+  display: inline-block;
+  width: 30.9%;
+  max-width: 358px;
+  margin-right: 3%; /* 42px */
+}
+
+#projectBlock .projectItemLast {
+  margin-right: 0;
+}
+
+.projectItem {
+  text-align: center;
+}
+
+#projectBlock .projectItem h2 {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 31.25px;
+  color: #292f36;
+  font-size: 25px;
+}
+
+.projectItem p {
+  width: 358px;
+  height: 99px;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  margin-bottom: 53px;
+}
+
+.projectItem a {
+  width: 93px;
+  height: 23px;
+  font-family: DM Serif Display;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.25px;
+  color: #4d5053;
+}
+
+#imageBlockEx {
+  width: 1210px;
+  height: 700px;
+  background: url(../images/smalltable.jpeg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  margin: 154px auto;
+  display: relative;
+}
+
+#imageBlockEx .imageBlockTitle {
+  width: 60%;
+  min-height: 150%;
+  background: rgba(255, 255, 255, 0.3);
+  border-top-right-radius: 400px;
+  border-right: 81px solid #fff;
+  margin-top: -150px;
+  padding-bottom: 150px;
+  background: url(../images/seatable.jpeg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.promoInfo2 {
+  top: 250px;
+  left: 25px;
+  text-align: left;
+  position: absolute;
+  color: white;
+}
+
+.promoInfo2 > h2 {
+  width: 368px;
+  height: 138px;
+  top: 142px;
+  left: 25px;
+  font-family: DM Serif Display;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 81.25px;
+  margin-bottom: 20px;
+}
+/*(space da > kixtva fontebtan)*/
+.promoInfo2 > p {
+  width: 324px;
+  height: 99px;
+  top: 300px;
+  left: 25px;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  margin-bottom: 28px;
+}
+
+.promoInfo2 a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: white;
+}
+
+.button2 {
+  width: 227px;
+  height: 75px;
+  top: 500px;
+  left: 25px;
+  text-align: center;
+  padding: 25px 22px 25px 28px;
+  border-radius: 20px;
+  background-color: #cda274;
+}
+
+.BigBox {
+  width: 1210px;
+  height: 679px;
+  background: #d8a876;
+  margin: 194px auto;
+  border-radius: 70px;
+  padding: 88px 25px;
+  text-align: center;
+}
+
+.PeopleBlock {
+  width: 100%;
+  height: auto;
+  top: 2472px;
+  left: 379.22px;
+}
+
+.PeopleBlock h2 {
+  width: 547px;
+  height: 126px;
+  font-family: DM Serif Display;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62.5px;
+  letter-spacing: 0.02em;
+  color: white;
+  margin: 0px 306px 38px 306px;
+  text-align: center;
+}
+
+.PeopleInfo {
+  margin: 0 1%;
+  vertical-align: top;
+  width: 30%;
+  height: 339px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 30px;
+  text-align: left;
+  padding: 53px 37px 0px 37px;
+}
+
+.div2 {
+  margin: 0px 10px;
+}
+
+.InfoImage {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 23px;
+}
+
+.smallinfo {
+  width: 296px;
+  height: 77px;
+  margin: 0px 39px 25px 0px;
+  text-align: left;
+}
+
+.smallinfo h3 {
+  font-family: DM Serif Display;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+}
+
+.PeopleInfo p {
+  width: 296px;
+  height: 99px;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.firmaas {
+  margin: 188px 270px 202px 270px;
+}
+
+/* #imageBlockEx {
+  width: 1210px;
+  height: 700px;
+  background: url(../images/smalltable.jpeg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  margin: 154px auto;
+  position: relative;
+}
+
+#imageBlockEx .imageBlockTitle {
+  width: 60%;
+  min-height: 150%;
+  background: rgba(255, 255, 255, 0.3);
+  border-top-right-radius: 400px;
+  border-right: 81px solid #fff;
+  margin-top: -150px;
+  padding-bottom: 150px;
+  background: url(../images/seatable.jpeg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.promoInfo2 {
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  position: absolute;
+  color: white;
+}
+
+.promoInfo2 h2 {
+  width: 368px;
+
+  margin-bottom: 11px;
+  font-family: DM Serif Display;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 68.75px;
+}
+
+.promoInfo p {
+  width: 324px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  margin: 0 auto 28px;
+  width: 324px;
+  height: 99px;
+  font-family: "Inter", sans-serif;
+}
+
+.promoInfo2 a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.5px;
+  letter-spacing: 0.02em;
+  color: white;
+}
+
+.button2 {
+  width: 227px;
+  height: 75px;
+  text-align: center;
+  padding: 25px 22px 25px 28px;
+  border-radius: 20px;
+  background-color: #cda274;
+  margin: 0 auto;
+} */
